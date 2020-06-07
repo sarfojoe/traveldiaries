@@ -22,6 +22,7 @@
 
 .mappic img {
   padding-top: 1rem;
+  max-height: 84vh;
 }
 
 @media only screen and (max-width: 600px) {
