@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  min-height: 100vh;
+  /* max-height: 90vh; */
   background-image: linear-gradient(
       rgba(36, 55, 80, 0.8),
       rgba(76, 75, 80, 0.8)
@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 /* for map.js CSS */
@@ -106,7 +107,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #fff;
   letter-spacing: 1px;
-  height: 100vh;
+  margin-bottom: 10rem;
+   
 }
 .signForm h3 {
   text-align: center;
@@ -115,6 +117,7 @@ body {
 
 .signForm input {
   box-shadow: 3px 3px 5px rgba(10, 10, 10, 0.9);
+
 }
 .signForm input:hover {
   box-shadow: 5px 2px 17px rgba(0, 0, 0, 0.7);
